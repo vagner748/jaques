@@ -1,0 +1,11 @@
+HTTrack3.49-2 launched on Mon, 23 Feb 2026 21:57:03 at https://map.jaquelinesalles.com.br/wp/
+(httrack https://map.jaquelinesalles.com.br/wp/ -O /Users/vagnerlauren/Documents/CLONES/jq )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 54 seconds : 116 links scanned, 115 files written (6560612 bytes overall) [5217547 bytes received at 45767 bytes/sec], 1734185 bytes transferred using HTTP compression in 44 files, ratio 19%, 14.5 requests per connection
+(No errors, 0 warnings, 0 messages)
