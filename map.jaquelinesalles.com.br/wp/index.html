@@ -1541,8 +1541,11 @@
 						data-id="7c70085e" data-element_type="widget" data-widget_type="image-box.default">
 						<div class="elementor-image-box-wrapper">
 							<div class="elementor-image-box-content" style="text-align: left;">
-								<h3 class="elementor-image-box-title">Você já viu esse poder funcionar. Mas por que não
-									consegue <I>MANTER?</i></h3>
+								<h3 class="elementor-image-box-title">Você já viu esse<br>
+									poder funcionar.<br>
+									<span class="gold-text">Mas não consegue</span><br>
+									<span class="gold-text-oval">MANTER.</span>
+								</h3>
 								<p class="elementor-image-box-description">Você já leu os livros. Você acredita no poder
 									do Universo.<br><br>
 									Você já teve aqueles dias em que tudo <br>simplesmente <i>flui</i>.<br><br>
@@ -3479,7 +3482,29 @@
 		.reveal-right.active-reveal,
 		.reveal-zoom.active-reveal {
 			opacity: 1 !important;
-			transform: translate(0) scale(1) !important;
+			transform: scale(1) !important;
+		}
+
+		/* Golden Text Gradients */
+		.gold-text {
+			background: linear-gradient(135deg, #B2996A 0%, #E9D4B2 50%, #B2996A 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+			display: inline-block;
+		}
+
+		.gold-text-oval {
+			background: linear-gradient(135deg, #B2996A 0%, #E9D4B2 50%, #B2996A 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+			display: inline-block;
+			border: 1px solid #000;
+			border-radius: 100% / 100%;
+			padding: 5px 25px;
+			margin-top: 10px;
+			line-height: 1;
 		}
 
 		/* Stagger Delays */
